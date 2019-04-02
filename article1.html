@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS BOX MODEL</title> //internship
+
+<!-- css styling  -->
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .box{
+        font-family: 'Lucida Sans';
+        border: 20px dashed coral;
+        text-align: center;
+        color: goldenrod;
+        background-color: black;
+        padding: 40px;
+        margin: 50px;
+    }
+    p{
+         margin: 5px;
+        font-weight: 300px;
+        text-align: justify;
+        color: blue;
+   }
+</style>
+
+</head>
+
+
+<body>
+<!-- html content -->
+<section class="row">
+    <p>CSS Box Model</p> 
+    <div class="box">
+        <span>Box One</span>
+        <p>This area is the actual content of the box in a black background. i added 
+            a 20px padding, and a 20px dashed coral  border </p>
+        <p>The space between the two boxes is called margin which is 50px </p>
+    </div>
+    <div class="box">
+        <span>Box Two</span>
+        <p>This are is the actual content of the box in a black bacjground.i added a 20px
+             padding, and a 20px dashed coral  border </p>
+        <p>The space between the two boxes is called margin which is 50px</p>
+    </div>
+    </section>
+</body>
+</html>
